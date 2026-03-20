@@ -1,5 +1,5 @@
 environment = "staging"
-aws_region = "us-east-1"
+aws_region = "us-east-2"
 
 # RDS Variables
 rds_instance_class        = "db.t4g.micro"
