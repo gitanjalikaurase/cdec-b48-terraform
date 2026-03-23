@@ -1,10 +1,10 @@
-terraform {
+/*terraform {
     backend "s3" {
         bucket = "cbz-terraform-b48"
         region = "ap-south-1"
         key = "terraform.tfstate"
     }
-}
+}*/
 
 provider "aws" {
     region = var.aws_region
